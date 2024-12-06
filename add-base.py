@@ -1,6 +1,8 @@
 import argparse
 import rdflib
 
+
+# test comment
 def find_ontology_base(file_path):
     g = rdflib.Graph()
     g.parse(file_path, format='turtle')
